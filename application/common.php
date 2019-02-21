@@ -10,3 +10,11 @@
 // +----------------------------------------------------------------------
 
 // 应用公共文件
+if(!function_exists('addsolt'))
+{
+    function addsolt($pwd)
+    {
+        $solt = `i'm_you_father`;
+        return md5($pwd.$solt);
+    }
+}

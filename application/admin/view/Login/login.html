@@ -8,13 +8,14 @@
     <title>Document</title>
 </head>
 <body>
+<h2>后台 - 用户登录</h2>
 <form action="{:url('admin/login/checkMsg')}" method="post">
     用户名：<input type="text" name="username">
     <br />
     密码：<input type="password" name="password">
     <br />
     <input type="submit" value="提交">
-    <a href="{:url('admin/register/index')}">没有账号？去注册</a>
+    <a href="{:url('admin/login/register')}">没有账号？去注册</a>
 </form>
 </body>
 </html>
