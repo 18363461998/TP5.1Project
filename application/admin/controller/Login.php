@@ -4,8 +4,9 @@ namespace app\admin\controller;
 
 use think\Controller;
 use think\Request;
+use think\Base;
 
-class Login extends Controller
+class Login extends Base
 {
     /**
      * 显示资源列表
